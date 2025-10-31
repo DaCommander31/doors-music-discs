@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bone",
+    "H": "minecraft:iron_hoe",
+    "L": "minecraft:birch_log",
+    "N": "#minecraft:bundles",
+    "R": "doors_music_discs:resonator",
+    "S": "minecraft:skeleton_skull",
+    "V": "minecraft:vine"
+  },
+  "pattern": [
+    "NSH",
+    "BRB",
+    "VLV"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:son_of_a_birch_music_disc"
+  }
+}

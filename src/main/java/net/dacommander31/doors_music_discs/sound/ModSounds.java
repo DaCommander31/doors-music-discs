@@ -55,6 +55,24 @@ public class ModSounds {
     public static RegistryKey<JukeboxSong> MUSIC_DISC_OH_DAM_KEY = registerJukeboxSong("music_disc.oh_dam");
     public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_FRESH_RAIN = registerReference("music_disc.fresh_rain");
     public static RegistryKey<JukeboxSong> MUSIC_DISC_FRESH_RAIN_KEY = registerJukeboxSong("music_disc.fresh_rain");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_GREAT_OUTDOORS = registerReference("music_disc.the_great_outdoors");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_THE_GREAT_OUTDOORS_KEY = registerJukeboxSong("music_disc.the_great_outdoors");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_GREAT_INDOORS = registerReference("music_disc.the_great_indoors");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_THE_GREAT_INDOORS_KEY = registerJukeboxSong("music_disc.the_great_indoors");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SON_OF_A_BIRCH = registerReference("music_disc.son_of_a_birch");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_SON_OF_A_BIRCH_KEY = registerJukeboxSong("music_disc.son_of_a_birch");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THORNS = registerReference("music_disc.thorns");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_THORNS_KEY = registerJukeboxSong("music_disc.thorns");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_KEEP_OFF_THE_GRASS = registerReference("music_disc.keep_off_the_grass");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_KEEP_OFF_THE_GRASS_KEY = registerJukeboxSong("music_disc.keep_off_the_grass");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEALS_OF_THE_DOORS = registerReference("music_disc.deals_of_the_doors");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_DEALS_OF_THE_DOORS_KEY = registerJukeboxSong("music_disc.deals_of_the_doors");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CONTENT_CONTENT_CONTENT = registerReference("music_disc.content_content_content");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_CONTENT_CONTENT_CONTENT_KEY = registerJukeboxSong("music_disc.content_content_content");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_MINES_TEASER = registerReference("music_disc.the_mines_teaser");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_THE_MINES_TEASER_KEY = registerJukeboxSong("music_disc.the_mines_teaser");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_MINES_TRAILER = registerReference("music_disc.the_mines_trailer");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_THE_MINES_TRAILER_KEY = registerJukeboxSong("music_disc.the_mines_trailer");
 
 
     public static RegistryKey<JukeboxSong> registerJukeboxSong(String name) {

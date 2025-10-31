@@ -39,6 +39,15 @@ public class ModItemGroups {
                         entries.add(ModItems.JEFFS_JAM_MUSIC_DISC);
                         entries.add(ModItems.OH_DAM_MUSIC_DISC);
                         entries.add(ModItems.FRESH_RAIN_MUSIC_DISC);
+                        entries.add(ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC);
+                        entries.add(ModItems.THE_GREAT_INDOORS_MUSIC_DISC);
+                        entries.add(ModItems.SON_OF_A_BIRCH_MUSIC_DISC);
+                        entries.add(ModItems.THORNS_MUSIC_DISC);
+                        entries.add(ModItems.KEEP_OFF_THE_GRASS_MUSIC_DISC);
+                        entries.add(ModItems.DEALS_OF_THE_DOORS_MUSIC_DISC);
+                        entries.add(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC);
+                        entries.add(ModItems.THE_MINES_TEASER_MUSIC_DISC);
+                        entries.add(ModItems.THE_MINES_TRAILER_MUSIC_DISC);
                     })
                     .build());
 

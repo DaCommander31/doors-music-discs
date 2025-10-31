@@ -59,6 +59,24 @@ public class ModItems {
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "oh_dam_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_OH_DAM_KEY)));
     public static final Item FRESH_RAIN_MUSIC_DISC = registerItem("fresh_rain_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "fresh_rain_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_FRESH_RAIN_KEY)));
+    public static final Item THE_GREAT_OUTDOORS_MUSIC_DISC = registerItem("the_great_outdoors_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "the_great_outdoors_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_GREAT_OUTDOORS_KEY)));
+    public static final Item THE_GREAT_INDOORS_MUSIC_DISC = registerItem("the_great_indoors_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "the_great_indoors_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_GREAT_INDOORS_KEY)));
+    public static final Item SON_OF_A_BIRCH_MUSIC_DISC = registerItem("son_of_a_birch_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "son_of_a_birch_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SON_OF_A_BIRCH_KEY)));
+    public static final Item THORNS_MUSIC_DISC = registerItem("thorns_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "thorns_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THORNS_KEY)));
+    public static final Item KEEP_OFF_THE_GRASS_MUSIC_DISC = registerItem("keep_off_the_grass_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "keep_off_the_grass_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_KEEP_OFF_THE_GRASS_KEY)));
+    public static final Item DEALS_OF_THE_DOORS_MUSIC_DISC = registerItem("deals_of_the_doors_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "deals_of_the_doors_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DEALS_OF_THE_DOORS_KEY)));
+    public static final Item CONTENT_CONTENT_CONTENT_MUSIC_DISC = registerItem("content_content_content_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "content_content_content_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_CONTENT_CONTENT_CONTENT_KEY)));
+    public static final Item THE_MINES_TEASER_MUSIC_DISC = registerItem("the_mines_teaser_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "the_mines_teaser_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TEASER_KEY)));
+    public static final Item THE_MINES_TRAILER_MUSIC_DISC = registerItem("the_mines_trailer_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "the_mines_trailer_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TRAILER_KEY)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, name), item);
