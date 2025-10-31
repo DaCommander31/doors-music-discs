@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "minecraft:bone",
-    "C": "minecraft:fire_charge",
-    "F": "minecraft:rotten_flesh",
-    "L": "minecraft:lever",
-    "R": "doors_music_discs:resonator"
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "item": "minecraft:fire_charge"
+    },
+    "F": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    }
   },
   "pattern": [
     "BCB",

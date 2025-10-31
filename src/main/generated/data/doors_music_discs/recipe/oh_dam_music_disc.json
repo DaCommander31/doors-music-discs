@@ -2,13 +2,27 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "doors_music_discs:here_i_come_music_disc",
-    "minecraft:water_bucket",
-    "minecraft:black_dye",
-    "#minecraft:planks",
-    "minecraft:redstone",
-    "#minecraft:stone_bricks",
-    "doors_music_discs:instrument_shuffler"
+    {
+      "item": "doors_music_discs:here_i_come_music_disc"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "minecraft:stone_bricks"
+    },
+    {
+      "item": "doors_music_discs:instrument_shuffler"
+    }
   ],
   "result": {
     "count": 1,

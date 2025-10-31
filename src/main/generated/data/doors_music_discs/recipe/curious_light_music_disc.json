@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": "minecraft:glowstone",
-    "L": "minecraft:lantern",
-    "P": "#minecraft:planks",
-    "R": "doors_music_discs:resonator",
-    "W": "#minecraft:wool"
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "L": {
+      "item": "minecraft:lantern"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
   },
   "pattern": [
     "WLP",

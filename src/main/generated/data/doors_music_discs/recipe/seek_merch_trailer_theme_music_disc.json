@@ -2,10 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "minecraft:black_wool",
-    "G": "minecraft:gold_nugget",
-    "R": "doors_music_discs:resonator",
-    "W": "minecraft:white_wool"
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
   },
   "pattern": [
     "BBB",

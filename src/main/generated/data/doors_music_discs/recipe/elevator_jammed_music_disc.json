@@ -2,10 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "minecraft:bone",
-    "F": "minecraft:rotten_flesh",
-    "I": "minecraft:iron_bars",
-    "R": "doors_music_discs:resonator"
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "F": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    }
   },
   "pattern": [
     "IBI",

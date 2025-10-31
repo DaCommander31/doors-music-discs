@@ -2,10 +2,18 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "doors_music_discs:jeffs_jingle_music_disc",
-    "minecraft:rotten_flesh",
-    "minecraft:bone",
-    "doors_music_discs:instrument_shuffler"
+    {
+      "item": "doors_music_discs:jeffs_jingle_music_disc"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "doors_music_discs:instrument_shuffler"
+    }
   ],
   "result": {
     "count": 1,

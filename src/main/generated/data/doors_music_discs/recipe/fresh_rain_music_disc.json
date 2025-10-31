@@ -2,12 +2,24 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "doors_music_discs:elevator_jammed_music_disc",
-    "minecraft:water_bucket",
-    "#minecraft:wooden_doors",
-    "#minecraft:stone_bricks",
-    "#minecraft:saplings",
-    "doors_music_discs:instrument_shuffler"
+    {
+      "item": "doors_music_discs:elevator_jammed_music_disc"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "tag": "minecraft:wooden_doors"
+    },
+    {
+      "tag": "minecraft:stone_bricks"
+    },
+    {
+      "tag": "minecraft:saplings"
+    },
+    {
+      "item": "doors_music_discs:instrument_shuffler"
+    }
   ],
   "result": {
     "count": 1,

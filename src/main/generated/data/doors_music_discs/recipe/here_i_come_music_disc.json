@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "minecraft:black_dye",
-    "D": "#minecraft:wooden_doors",
-    "E": "minecraft:ender_eye",
-    "R": "doors_music_discs:resonator",
-    "S": "minecraft:slime_ball"
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "D": {
+      "tag": "minecraft:wooden_doors"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
   },
   "pattern": [
     "SDB",

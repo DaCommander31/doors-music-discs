@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "D": "#minecraft:stone_crafting_materials",
-    "L": "minecraft:soul_lantern",
-    "P": "#minecraft:planks",
-    "R": "doors_music_discs:resonator",
-    "S": "minecraft:soul_soil"
+    "D": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "L": {
+      "item": "minecraft:soul_lantern"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:soul_soil"
+    }
   },
   "pattern": [
     "DLP",

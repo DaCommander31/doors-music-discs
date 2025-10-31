@@ -2,10 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": "minecraft:black_dye",
-    "G": "minecraft:gold_nugget",
-    "R": "doors_music_discs:resonator",
-    "S": "minecraft:sea_lantern"
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:sea_lantern"
+    }
   },
   "pattern": [
     "S S",

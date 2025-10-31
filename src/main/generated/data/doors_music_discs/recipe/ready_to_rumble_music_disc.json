@@ -2,13 +2,27 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "L": "minecraft:lever",
-    "P": "#minecraft:pickaxes",
-    "R": "doors_music_discs:resonator",
-    "S": "minecraft:stone",
-    "V": "minecraft:vine",
-    "W": "minecraft:water_bucket",
-    "Y": "minecraft:redstone"
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "P": {
+      "tag": "minecraft:pickaxes"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    },
+    "Y": {
+      "item": "minecraft:redstone"
+    }
   },
   "pattern": [
     "WPS",

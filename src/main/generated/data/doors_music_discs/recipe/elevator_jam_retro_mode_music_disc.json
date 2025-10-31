@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "doors_music_discs:elevator_jam_music_disc",
-    "minecraft:red_dye",
-    "minecraft:green_dye",
-    "minecraft:blue_dye",
-    "doors_music_discs:instrument_shuffler"
+    {
+      "item": "doors_music_discs:elevator_jam_music_disc"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "item": "doors_music_discs:instrument_shuffler"
+    }
   ],
   "result": {
     "count": 1,

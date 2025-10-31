@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "L": "minecraft:soul_lantern",
-    "P": "#minecraft:planks",
-    "R": "doors_music_discs:resonator"
+    "L": {
+      "item": "minecraft:soul_lantern"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    }
   },
   "pattern": [
     "LPL",
