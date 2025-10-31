@@ -5,13 +5,13 @@
 	"name": "Roblox Doors Music Discs",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"DaCommander31!"
+		"DaCommander31"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/doors_music_discs/icon.png",
 	"environment": "*",
 	"entrypoints": {
