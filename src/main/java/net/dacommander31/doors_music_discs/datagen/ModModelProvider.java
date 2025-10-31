@@ -44,6 +44,15 @@ public class ModModelProvider extends FabricModelProvider {
         simpleItem(ModItems.JEFFS_JAM_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.OH_DAM_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.FRESH_RAIN_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.THE_GREAT_INDOORS_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.SON_OF_A_BIRCH_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.THORNS_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.KEEP_OFF_THE_GRASS_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.DEALS_OF_THE_DOORS_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.THE_MINES_TEASER_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.THE_MINES_TRAILER_MUSIC_DISC, itemModelGenerator);
     }
 
     private static void simpleItem(Item item, ItemModelGenerator itemModelGenerator) {

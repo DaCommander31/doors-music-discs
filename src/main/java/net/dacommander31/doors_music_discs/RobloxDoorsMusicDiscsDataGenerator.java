@@ -1,5 +1,6 @@
 package net.dacommander31.doors_music_discs;
 
+import net.dacommander31.doors_music_discs.datagen.ModItemTagProvider;
 import net.dacommander31.doors_music_discs.datagen.ModModelProvider;
 import net.dacommander31.doors_music_discs.datagen.ModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -12,5 +13,6 @@ public class RobloxDoorsMusicDiscsDataGenerator implements DataGeneratorEntrypoi
 
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 	}
 }

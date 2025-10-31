@@ -174,5 +174,77 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.the_great_outdoors": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/the_great_outdoors",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.the_great_indoors": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/the_great_indoors",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.son_of_a_birch": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/son_of_a_birch",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.thorns": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/thorns",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.keep_off_the_grass": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/keep_off_the_grass",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.deals_of_the_doors": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/deals_of_the_doors",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.content_content_content": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/content_content_content",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.the_mines_teaser": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/the_mines_teaser",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.the_mines_trailer": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/the_mines_trailer",
+        "stream": true
+      }
+    ]
   }
 }
