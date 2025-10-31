@@ -14,6 +14,8 @@ import net.minecraft.registry.tag.ItemTags;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
+
+
     public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
         super(output, registriesFuture);
     }
@@ -284,6 +286,121 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input(ItemTags.SAPLINGS)
                 .input(ModItems.INSTRUMENT_SHUFFLER)
                 .criterion(hasItem(ModItems.ELEVATOR_JAMMED_MUSIC_DISC), conditionsFromItem(ModItems.ELEVATOR_JAMMED_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('G', Items.GRASS_BLOCK)
+                .input('P', Items.DIRT_PATH)
+                .input('S', ItemTags.SAPLINGS)
+                .input('B', Items.BONE)
+                .input('V', Items.VINE)
+                .pattern("VBV")
+                .pattern("SRS")
+                .pattern("GPG")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THE_GREAT_INDOORS_MUSIC_DISC)
+                .input('O', ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC)
+                .input('I', ModItems.INSTRUMENT_SHUFFLER)
+                .input('D', ItemTags.WOODEN_DOORS)
+                .input('P', ItemTags.PLANKS)
+                .input('G', Items.GLASS)
+                .pattern("DGD")
+                .pattern("GOG")
+                .pattern("PIP")
+                .criterion(hasItem(ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC), conditionsFromItem(ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.SON_OF_A_BIRCH_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('L', Items.BIRCH_LOG)
+                .input('S', Items.SKELETON_SKULL)
+                .input('N', Items.LEATHER)
+                .input('H', Items.IRON_HOE)
+                .input('B', Items.BONE)
+                .input('V', Items.VINE)
+                .pattern("NSH")
+                .pattern("BRB")
+                .pattern("VLV")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THORNS_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('L', Items.LANTERN)
+                .input('P', Items.PINK_PETALS)
+                .input('E', ItemTags.LEAVES)
+                .input('V', Items.VINE)
+                .pattern("VPV")
+                .pattern("ERE")
+                .pattern("VLV")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.KEEP_OFF_THE_GRASS_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('L', Items.LANTERN)
+                .input('S', Items.SKELETON_SKULL)
+                .input('N', Items.LEATHER)
+                .input('B', Items.BONE)
+                .input('V', Items.VINE)
+                .input('G', Items.GRASS_BLOCK)
+                .input('H', Items.LEATHER_BOOTS)
+                .input('P', ItemTags.PLANKS)
+                .pattern("LHN")
+                .pattern("VRS")
+                .pattern("GPB")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DEALS_OF_THE_DOORS_MUSIC_DISC)
+                .input('D', ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC)
+                .input('I', ModItems.INSTRUMENT_SHUFFLER)
+                .input('G', Items.GOLD_NUGGET)
+                .input('P', ItemTags.PLANKS)
+                .input('B', ItemTags.WOODEN_BUTTONS)
+                .pattern("GPG")
+                .pattern("BDB")
+                .pattern("GIG")
+                .criterion(hasItem(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC), conditionsFromItem(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC)
+                .input('D', ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC)
+                .input('I', ModItems.INSTRUMENT_SHUFFLER)
+                .input('S', Items.SUGAR)
+                .input('M', Items.MAGENTA_DYE)
+                .input('Y', Items.YELLOW_DYE)
+                .input('L', Items.LIGHT_BLUE_DYE)
+                .pattern("MSM")
+                .pattern("YDY")
+                .pattern("LIL")
+                .criterion(hasItem(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC), conditionsFromItem(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC))
+                .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THE_MINES_TEASER_MUSIC_DISC)
+                .input('R', ModItems.RESONATOR)
+                .input('S', Items.STONE)
+                .input('I', Items.IRON_BARS)
+                .input('W', Items.WATER_BUCKET)
+                .input('L', Items.LADDER)
+                .pattern("SLS")
+                .pattern("IRI")
+                .pattern("SWS")
+                .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                .offerTo(exporter);
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THE_MINES_TRAILER_MUSIC_DISC)
+                .input(ModItems.THE_MINES_TEASER_MUSIC_DISC)
+                .input(Items.REDSTONE)
+                .input(ModItems.INSTRUMENT_SHUFFLER)
+                .criterion(hasItem(ModItems.THE_MINES_TEASER_MUSIC_DISC), conditionsFromItem(ModItems.THE_MINES_TEASER_MUSIC_DISC))
                 .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
                 .offerTo(exporter);
     }

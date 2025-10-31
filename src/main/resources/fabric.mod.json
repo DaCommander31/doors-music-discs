@@ -5,7 +5,7 @@
 	"name": "Roblox Doors Music Discs",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"DaCommander31!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -23,9 +23,9 @@
 		]
 	},
 	"depends": {
-		"fabricloader": ">=0.16.9",
+		"fabricloader": "*",
 		"minecraft": ">=1.20.5 <=1.20.6",
-		"java": ">=21",
+		"java": ">=17",
 		"fabric-api": "*"
 	},
 	"suggests": {
