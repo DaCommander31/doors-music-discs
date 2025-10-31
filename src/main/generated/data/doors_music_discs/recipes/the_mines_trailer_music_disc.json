@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "doors_music_discs:the_mines_teaser_music_disc"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "doors_music_discs:instrument_shuffler"
+    }
+  ],
+  "result": {
+    "item": "doors_music_discs:the_mines_trailer_music_disc"
+  }
+}
