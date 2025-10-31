@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "H": {
+      "item": "minecraft:iron_hoe"
+    },
+    "L": {
+      "item": "minecraft:birch_log"
+    },
+    "N": {
+      "item": "minecraft:leather"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    }
+  },
+  "pattern": [
+    "NSH",
+    "BRB",
+    "VLV"
+  ],
+  "result": {
+    "item": "doors_music_discs:son_of_a_birch_music_disc"
+  },
+  "show_notification": true
+}

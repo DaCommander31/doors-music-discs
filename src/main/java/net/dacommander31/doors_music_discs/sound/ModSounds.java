@@ -3,6 +3,8 @@ package net.dacommander31.doors_music_discs.sound;
 import net.dacommander31.doors_music_discs.RobloxDoorsMusicDiscs;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 
@@ -29,6 +31,15 @@ public class ModSounds {
     public static SoundEvent MUSIC_DISC_JEFFS_JAM = registerSoundEvent("music_disc.jeffs_jam");
     public static SoundEvent MUSIC_DISC_OH_DAM = registerSoundEvent("music_disc.oh_dam");
     public static SoundEvent MUSIC_DISC_FRESH_RAIN = registerSoundEvent("music_disc.fresh_rain");
+    public static SoundEvent MUSIC_DISC_THE_GREAT_OUTDOORS = registerSoundEvent("music_disc.the_great_outdoors");
+    public static SoundEvent MUSIC_DISC_THE_GREAT_INDOORS = registerSoundEvent("music_disc.the_great_indoors");
+    public static SoundEvent MUSIC_DISC_SON_OF_A_BIRCH = registerSoundEvent("music_disc.son_of_a_birch");
+    public static SoundEvent MUSIC_DISC_THORNS = registerSoundEvent("music_disc.thorns");
+    public static SoundEvent MUSIC_DISC_KEEP_OFF_THE_GRASS = registerSoundEvent("music_disc.keep_off_the_grass");
+    public static SoundEvent MUSIC_DISC_DEALS_OF_THE_DOORS = registerSoundEvent("music_disc.deals_of_the_doors");
+    public static SoundEvent MUSIC_DISC_CONTENT_CONTENT_CONTENT = registerSoundEvent("music_disc.content_content_content");
+    public static SoundEvent MUSIC_DISC_THE_MINES_TEASER = registerSoundEvent("music_disc.the_mines_teaser");
+    public static SoundEvent MUSIC_DISC_THE_MINES_TRAILER = registerSoundEvent("music_disc.the_mines_trailer");
 
 
     public static SoundEvent registerSoundEvent(String name) {

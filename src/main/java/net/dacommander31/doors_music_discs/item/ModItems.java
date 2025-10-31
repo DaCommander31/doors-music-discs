@@ -59,6 +59,24 @@ public class ModItems {
             new MusicDiscItem(4, ModSounds.MUSIC_DISC_OH_DAM, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 188));
     public static final Item FRESH_RAIN_MUSIC_DISC = registerItem("fresh_rain_music_disc",
             new MusicDiscItem(5, ModSounds.MUSIC_DISC_FRESH_RAIN, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 117));
+    public static final Item THE_GREAT_OUTDOORS_MUSIC_DISC = registerItem("the_great_outdoors_music_disc",
+            new MusicDiscItem(6, ModSounds.MUSIC_DISC_THE_GREAT_OUTDOORS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 71));
+    public static final Item THE_GREAT_INDOORS_MUSIC_DISC = registerItem("the_great_indoors_music_disc",
+            new MusicDiscItem(7, ModSounds.MUSIC_DISC_THE_GREAT_INDOORS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 36));
+    public static final Item SON_OF_A_BIRCH_MUSIC_DISC = registerItem("son_of_a_birch_music_disc",
+            new MusicDiscItem(8, ModSounds.MUSIC_DISC_SON_OF_A_BIRCH, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 123));
+    public static final Item THORNS_MUSIC_DISC = registerItem("thorns_music_disc",
+            new MusicDiscItem(9, ModSounds.MUSIC_DISC_THORNS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 157));
+    public static final Item KEEP_OFF_THE_GRASS_MUSIC_DISC = registerItem("keep_off_the_grass_music_disc",
+            new MusicDiscItem(10, ModSounds.MUSIC_DISC_KEEP_OFF_THE_GRASS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 41));
+    public static final Item DEALS_OF_THE_DOORS_MUSIC_DISC = registerItem("deals_of_the_doors_music_disc",
+            new MusicDiscItem(11, ModSounds.MUSIC_DISC_DEALS_OF_THE_DOORS, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 80));
+    public static final Item CONTENT_CONTENT_CONTENT_MUSIC_DISC = registerItem("content_content_content_music_disc",
+            new MusicDiscItem(12, ModSounds.MUSIC_DISC_CONTENT_CONTENT_CONTENT, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 80));
+    public static final Item THE_MINES_TEASER_MUSIC_DISC = registerItem("the_mines_teaser_music_disc",
+            new MusicDiscItem(13, ModSounds.MUSIC_DISC_THE_MINES_TEASER, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 57));
+    public static final Item THE_MINES_TRAILER_MUSIC_DISC = registerItem("the_mines_trailer_music_disc",
+            new MusicDiscItem(14, ModSounds.MUSIC_DISC_THE_MINES_TRAILER, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE), 52));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, name), item);

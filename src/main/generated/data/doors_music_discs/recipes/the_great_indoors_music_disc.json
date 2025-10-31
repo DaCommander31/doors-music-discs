@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "minecraft:wooden_doors"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "doors_music_discs:instrument_shuffler"
+    },
+    "O": {
+      "item": "doors_music_discs:the_great_outdoors_music_disc"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "DGD",
+    "GOG",
+    "PIP"
+  ],
+  "result": {
+    "item": "doors_music_discs:the_great_indoors_music_disc"
+  },
+  "show_notification": true
+}

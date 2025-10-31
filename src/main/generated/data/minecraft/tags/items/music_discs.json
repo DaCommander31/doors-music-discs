@@ -22,6 +22,15 @@
     "doors_music_discs:ready_to_rumble_music_disc",
     "doors_music_discs:jeffs_jam_music_disc",
     "doors_music_discs:oh_dam_music_disc",
-    "doors_music_discs:fresh_rain_music_disc"
+    "doors_music_discs:fresh_rain_music_disc",
+    "doors_music_discs:the_great_outdoors_music_disc",
+    "doors_music_discs:the_great_indoors_music_disc",
+    "doors_music_discs:son_of_a_birch_music_disc",
+    "doors_music_discs:thorns_music_disc",
+    "doors_music_discs:keep_off_the_grass_music_disc",
+    "doors_music_discs:deals_of_the_doors_music_disc",
+    "doors_music_discs:content_content_content_music_disc",
+    "doors_music_discs:the_mines_teaser_music_disc",
+    "doors_music_discs:the_mines_trailer_music_disc"
   ]
 }
