@@ -15,13 +15,14 @@ public class RobloxDoorsMusicDiscs {
     public static final String MOD_ID = "doors_music_discs";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public RobloxDoorsMusicDiscs() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+    public RobloxDoorsMusicDiscs(FMLJavaModLoadingContext context) {
+        IEventBus modEventBus = context.getModEventBus();
         MinecraftForge.EVENT_BUS.register(this);
 
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModSounds.register(modEventBus);
+
     }
 }
