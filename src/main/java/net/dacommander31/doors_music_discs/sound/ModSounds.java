@@ -48,7 +48,7 @@ public class ModSounds {
 
 
     public static RegistryObject<SoundEvent> registerSoundEvent(String name) {
-        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(RobloxDoorsMusicDiscs.MOD_ID, name)));
+        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(RobloxDoorsMusicDiscs.MOD_ID, name)));
     }
 
     public static void register(IEventBus eventBus) {
