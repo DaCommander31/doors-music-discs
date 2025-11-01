@@ -1,13 +1,11 @@
 package net.dacommander31.doors_music_discs.datagen;
 
 import net.dacommander31.doors_music_discs.item.ModItems;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 
-import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider {
