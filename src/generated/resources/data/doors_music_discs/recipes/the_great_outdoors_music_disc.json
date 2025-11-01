@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "G": {
+      "item": "minecraft:grass_block"
+    },
+    "P": {
+      "item": "minecraft:dirt_path"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    },
+    "S": {
+      "tag": "minecraft:saplings"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    }
+  },
+  "pattern": [
+    "VBV",
+    "SRS",
+    "GPG"
+  ],
+  "result": {
+    "item": "doors_music_discs:the_great_outdoors_music_disc"
+  }
+}

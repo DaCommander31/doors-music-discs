@@ -1,0 +1,27 @@
+[01Nov2025 15:29:45.697] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 12, --assetsDir, E:\GradleFiles\caches\forge_gradle\assets, --gameDir, ., --mod, doors_music_discs, --all, --output, E:\Minecraft Modding Workspaces\doors_music_discs-forge-0.0.1-1.20.3-.4\src\generated\resources, --existing, E:\Minecraft Modding Workspaces\doors_music_discs-forge-0.0.1-1.20.3-.4\src\main\resources]
+[01Nov2025 15:29:45.705] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 17.0.17+10
+[01Nov2025 15:29:45.707] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.1.2 starting: java version 17.0.17 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[01Nov2025 15:29:46.065] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file E:\Minecraft Modding Workspaces\doors_music_discs-forge-0.0.1-1.20.3-.4\run-data\config\fml.toml is not correct. Correcting
+[01Nov2025 15:29:46.066] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[01Nov2025 15:29:46.067] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [detectNonForgeModsToml] was corrected from null to true
+[01Nov2025 15:29:46.067] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[01Nov2025 15:29:46.130] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[01Nov2025 15:29:46.526] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=jar:file:///E:/GradleFiles/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar!/ Service=ModLauncher Env=UNKNOWN
+[01Nov2025 15:29:47.727] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[01Nov2025 15:29:49.730] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, E:\GradleFiles\caches\forge_gradle\assets, --assetIndex, 12, --mod, doors_music_discs, --all, --output, E:\Minecraft Modding Workspaces\doors_music_discs-forge-0.0.1-1.20.3-.4\src\generated\resources, --existing, E:\Minecraft Modding Workspaces\doors_music_discs-forge-0.0.1-1.20.3-.4\src\main\resources]
+[01Nov2025 15:30:00.894] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 49.1.0, for MC 1.20.4 with MCP 20231207.112700
+[01Nov2025 15:30:00.894] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v49.1.0 Initialized
+[01Nov2025 15:30:01.032] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[01Nov2025 15:30:01.415] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [doors_music_discs]
+[01Nov2025 15:30:01.480] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/GradleFiles/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.1.0_mapped_parchment_2024.04.14-1.20.4/forge-1.20.4-49.1.0_mapped_parchment_2024.04.14-1.20.4.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[01Nov2025 15:30:01.480] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/GradleFiles/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.4-49.1.0_mapped_parchment_2024.04.14-1.20.4/forge-1.20.4-49.1.0_mapped_parchment_2024.04.14-1.20.4.jar%230!/data/.mcassetsroot' uses unexpected schema
+[01Nov2025 15:30:01.648] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[01Nov2025 15:30:01.833] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 185 ms
+[01Nov2025 15:30:01.835] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: doors_music_discs
+[01Nov2025 15:30:01.934] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: doors_music_discs finished after 99 ms
+[01Nov2025 15:30:01.934] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id doors_music_discs
+[01Nov2025 15:30:01.993] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id doors_music_discs finished after 58 ms
+[01Nov2025 15:30:01.993] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id doors_music_discs
+[01Nov2025 15:30:02.008] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id doors_music_discs finished after 15 ms
+[01Nov2025 15:30:02.009] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 360 ms
+[01Nov2025 15:30:02.038] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 100, old count: 73, new count: 101, removed stale: 0, written: 28
