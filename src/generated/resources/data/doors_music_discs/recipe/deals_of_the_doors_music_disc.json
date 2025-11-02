@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "minecraft:wooden_buttons"
+    },
+    "D": {
+      "item": "doors_music_discs:dawn_of_the_doors_music_disc"
+    },
+    "G": {
+      "item": "minecraft:gold_nugget"
+    },
+    "I": {
+      "item": "doors_music_discs:instrument_shuffler"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "GPG",
+    "BDB",
+    "GIG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:deals_of_the_doors_music_disc"
+  }
+}
