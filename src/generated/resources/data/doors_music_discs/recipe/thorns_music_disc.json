@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "#minecraft:leaves",
+    "L": "minecraft:lantern",
+    "P": "minecraft:pink_petals",
+    "R": "doors_music_discs:resonator",
+    "V": "minecraft:vine"
+  },
+  "pattern": [
+    "VPV",
+    "ERE",
+    "VLV"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:thorns_music_disc"
+  }
+}
