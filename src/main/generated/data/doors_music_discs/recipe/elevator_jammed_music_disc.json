@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bone",
+    "F": "minecraft:rotten_flesh",
+    "I": "minecraft:iron_bars",
+    "R": "doors_music_discs:resonator"
+  },
+  "pattern": [
+    "IBI",
+    "FRF",
+    "IBI"
+  ],
+  "result": {
+    "id": "doors_music_discs:elevator_jammed_music_disc"
+  }
+}

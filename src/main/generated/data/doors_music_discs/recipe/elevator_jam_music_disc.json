@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "#minecraft:buttons",
+    "I": "minecraft:iron_bars",
+    "R": "doors_music_discs:resonator",
+    "Z": "minecraft:redstone"
+  },
+  "pattern": [
+    "IZI",
+    "BRB",
+    "IZI"
+  ],
+  "result": {
+    "id": "doors_music_discs:elevator_jam_music_disc"
+  }
+}

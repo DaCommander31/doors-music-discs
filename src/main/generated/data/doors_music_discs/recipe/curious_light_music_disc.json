@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:glowstone",
+    "L": "minecraft:lantern",
+    "P": "#minecraft:planks",
+    "R": "doors_music_discs:resonator",
+    "W": "#minecraft:wool"
+  },
+  "pattern": [
+    "WLP",
+    "GRG",
+    "PLW"
+  ],
+  "result": {
+    "id": "doors_music_discs:curious_light_music_disc"
+  }
+}

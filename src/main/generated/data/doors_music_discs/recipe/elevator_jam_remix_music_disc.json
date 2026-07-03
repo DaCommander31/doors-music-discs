@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "doors_music_discs:elevator_jam_music_disc",
+    "doors_music_discs:instrument_shuffler"
+  ],
+  "result": {
+    "id": "doors_music_discs:elevator_jam_remix_music_disc"
+  }
+}

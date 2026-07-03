@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:clock",
+    "D": "#minecraft:wooden_doors",
+    "L": "minecraft:lever",
+    "P": "#minecraft:planks",
+    "R": "doors_music_discs:resonator"
+  },
+  "pattern": [
+    "PDP",
+    "LRC",
+    "PDP"
+  ],
+  "result": {
+    "id": "doors_music_discs:make_haste_music_disc"
+  }
+}

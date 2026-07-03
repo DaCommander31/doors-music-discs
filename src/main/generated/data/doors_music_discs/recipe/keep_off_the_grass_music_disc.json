@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:bone",
+    "G": "minecraft:grass_block",
+    "H": "minecraft:leather_boots",
+    "L": "minecraft:lantern",
+    "N": "#minecraft:bundles",
+    "P": "#minecraft:planks",
+    "R": "doors_music_discs:resonator",
+    "S": "minecraft:skeleton_skull",
+    "V": "minecraft:vine"
+  },
+  "pattern": [
+    "LHN",
+    "VRS",
+    "GPB"
+  ],
+  "result": {
+    "id": "doors_music_discs:keep_off_the_grass_music_disc"
+  }
+}

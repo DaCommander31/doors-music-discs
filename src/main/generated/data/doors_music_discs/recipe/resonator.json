@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "N": "minecraft:note_block",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "RNR",
+    "NAN",
+    "RNR"
+  ],
+  "result": {
+    "id": "doors_music_discs:resonator"
+  }
+}
