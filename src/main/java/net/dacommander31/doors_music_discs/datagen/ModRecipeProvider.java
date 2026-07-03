@@ -6,6 +6,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.tags.BlockItemTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 
@@ -59,7 +60,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
         shaped(RecipeCategory.MISC, ModItems.ELEVATOR_JAM_MUSIC_DISC.get())
                 .define('R', ModItems.RESONATOR.get())
-                .define('B', ItemTags.BUTTONS)
+                .define('B', BlockItemTags.BUTTONS.item())
                 .define('Z', Items.REDSTONE)
                 .define('I', Items.IRON_BARS)
                 .pattern("IZI")
@@ -94,7 +95,7 @@ public class ModRecipeProvider extends RecipeProvider {
         shaped(RecipeCategory.MISC, ModItems.HERE_I_COME_MUSIC_DISC.get())
                 .define('R', ModItems.RESONATOR.get())
                 .define('S', Items.SLIME_BALL)
-                .define('B', Items.BLACK_DYE)
+                .define('B', Items.DYE.black())
                 .define('D', ItemTags.WOODEN_DOORS)
                 .define('E', Items.ENDER_EYE)
                 .pattern("SDB")
@@ -105,7 +106,7 @@ public class ModRecipeProvider extends RecipeProvider {
 
         shaped(RecipeCategory.MISC, ModItems.JEFFS_JINGLE_MUSIC_DISC.get())
                 .define('R', ModItems.RESONATOR.get())
-                .define('B', Items.BLACK_DYE)
+                .define('B', Items.DYE.black())
                 .define('G', Items.GOLD_NUGGET)
                 .define('S', Items.SEA_LANTERN)
                 .pattern("S S")
@@ -201,8 +202,8 @@ public class ModRecipeProvider extends RecipeProvider {
 
         shaped(RecipeCategory.MISC, ModItems.SEEK_MERCH_TRAILER_THEME_MUSIC_DISC.get())
                 .define('R', ModItems.RESONATOR.get())
-                .define('B', Items.BLACK_WOOL)
-                .define('W', Items.WHITE_WOOL)
+                .define('B', Items.WOOL.black())
+                .define('W', Items.WOOL.white())
                 .define('G', Items.GOLD_NUGGET)
                 .pattern("BBB")
                 .pattern("WRW")
@@ -212,9 +213,9 @@ public class ModRecipeProvider extends RecipeProvider {
 
         shapeless(RecipeCategory.MISC, ModItems.ELEVATOR_JAM_RETRO_MODE_MUSIC_DISC.get())
                 .requires(ModItems.ELEVATOR_JAM_MUSIC_DISC.get())
-                .requires(Items.RED_DYE)
-                .requires(Items.GREEN_DYE)
-                .requires(Items.BLUE_DYE)
+                .requires(Items.DYE.red())
+                .requires(Items.DYE.green())
+                .requires(Items.DYE.blue())
                 .requires(ModItems.INSTRUMENT_SHUFFLER.get())
                 .unlockedBy(getHasName(ModItems.ELEVATOR_JAM_MUSIC_DISC.get()), has(ModItems.ELEVATOR_JAM_MUSIC_DISC.get()))
                 .unlockedBy(getHasName(ModItems.INSTRUMENT_SHUFFLER.get()), has(ModItems.INSTRUMENT_SHUFFLER.get()))
@@ -231,7 +232,7 @@ public class ModRecipeProvider extends RecipeProvider {
         shapeless(RecipeCategory.MISC, ModItems.READY_OR_NOT_MUSIC_DISC.get())
                 .requires(ModItems.HERE_I_COME_MUSIC_DISC.get())
                 .requires(Items.WATER_BUCKET)
-                .requires(Items.BLACK_DYE)
+                .requires(Items.DYE.black())
                 .requires(Items.MINECART)
                 .requires(Items.RAIL)
                 .requires(Items.POINTED_DRIPSTONE)
@@ -258,7 +259,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .requires(ModItems.JEFFS_JINGLE_MUSIC_DISC.get())
                 .requires(Items.WATER_BUCKET)
                 .requires(ItemTags.PLANKS)
-                .requires(ItemTags.BUTTONS)
+                .requires(BlockItemTags.BUTTONS.item())
                 .requires(Items.REDSTONE)
                 .requires(Items.GOLD_NUGGET)
                 .requires(ModItems.INSTRUMENT_SHUFFLER.get())
@@ -269,7 +270,7 @@ public class ModRecipeProvider extends RecipeProvider {
         shapeless(RecipeCategory.MISC, ModItems.OH_DAM_MUSIC_DISC.get())
                 .requires(ModItems.HERE_I_COME_MUSIC_DISC.get())
                 .requires(Items.WATER_BUCKET)
-                .requires(Items.BLACK_DYE)
+                .requires(Items.DYE.black())
                 .requires(ItemTags.PLANKS)
                 .requires(Items.REDSTONE)
                 .requires(ItemTags.STONE_BRICKS)
@@ -362,7 +363,7 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('I', ModItems.INSTRUMENT_SHUFFLER.get())
                 .define('G', Items.GOLD_NUGGET)
                 .define('P', ItemTags.PLANKS)
-                .define('B', ItemTags.WOODEN_BUTTONS)
+                .define('B', BlockItemTags.BUTTONS.item())
                 .pattern("GPG")
                 .pattern("BDB")
                 .pattern("GIG")
@@ -374,9 +375,9 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('D', ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC.get())
                 .define('I', ModItems.INSTRUMENT_SHUFFLER.get())
                 .define('S', Items.SUGAR)
-                .define('M', Items.MAGENTA_DYE)
-                .define('Y', Items.YELLOW_DYE)
-                .define('L', Items.LIGHT_BLUE_DYE)
+                .define('M', Items.DYE.magenta())
+                .define('Y', Items.DYE.yellow())
+                .define('L', Items.DYE.lightBlue())
                 .pattern("MSM")
                 .pattern("YDY")
                 .pattern("LIL")
