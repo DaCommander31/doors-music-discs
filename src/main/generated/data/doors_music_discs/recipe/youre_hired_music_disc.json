@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "minecraft:emerald",
+    "L": "#minecraft:planks",
+    "P": "minecraft:paper",
+    "R": "doors_music_discs:resonator"
+  },
+  "pattern": [
+    "EPE",
+    "PRP",
+    "LLL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:youre_hired_music_disc"
+  }
+}
