@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "D": "minecraft:redstone",
+    "L": "minecraft:lightning_rod",
+    "Q": "minecraft:quartz",
+    "R": "doors_music_discs:resonator"
+  },
+  "pattern": [
+    "CLC",
+    "QRQ",
+    "CDC"
+  ],
+  "result": {
+    "id": "doors_music_discs:reconnecting_music_disc"
+  }
+}

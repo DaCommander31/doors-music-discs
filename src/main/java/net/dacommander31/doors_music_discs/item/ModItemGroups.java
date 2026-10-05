@@ -4,11 +4,11 @@ import net.dacommander31.doors_music_discs.RobloxDoorsMusicDiscs;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+
 
 public class ModItemGroups {
     public static final CreativeModeTab ROBLOX_DOORS_MUSIC_DISCS = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB,
@@ -49,8 +49,19 @@ public class ModItemGroups {
                         entries.accept(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC);
                         entries.accept(ModItems.THE_MINES_TEASER_MUSIC_DISC);
                         entries.accept(ModItems.THE_MINES_TRAILER_MUSIC_DISC);
+                        entries.accept(ModItems.UNWRAPPED_MUSIC_DISC);
+                        entries.accept(ModItems.SELF_MUSIC_DISC);
+                        entries.accept(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC);
+                        entries.accept(ModItems._77825_DAYS_MUSIC_DISC);
+                        entries.accept(ModItems.YOURE_HIRED_MUSIC_DISC);
+                        entries.accept(ModItems.LETS_GET_TO_WORK_MUSIC_DISC);
+                        entries.accept(ModItems.RECONNECTING_MUSIC_DISC);
+                        entries.accept(ModItems.FORGET_ME_NOT_MUSIC_DISC);
+                        entries.accept(ModItems.R4NS0M_MUSIC_DISC);
+                        entries.accept(ModItems.UNRECOVERABLE_MUSIC_DISC);
                     })
-                    .build());
+                    .build()
+    );
 
 
 

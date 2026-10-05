@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
+import net.minecraft.client.data.models.model.ItemModelUtils;
 import net.minecraft.client.data.models.model.ModelTemplates;
 import net.minecraft.world.item.Item;
 
@@ -14,7 +15,7 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-    public void generateBlockStateModels(BlockModelGenerators blockStateModelGenerators) {
+    public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
 
     }
 
@@ -53,11 +54,21 @@ public class ModModelProvider extends FabricModelProvider {
         simpleItem(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC, itemModelGenerators);
         simpleItem(ModItems.THE_MINES_TEASER_MUSIC_DISC, itemModelGenerators);
         simpleItem(ModItems.THE_MINES_TRAILER_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.UNWRAPPED_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.SELF_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems._77825_DAYS_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.YOURE_HIRED_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.LETS_GET_TO_WORK_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.RECONNECTING_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.FORGET_ME_NOT_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.R4NS0M_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.UNRECOVERABLE_MUSIC_DISC, itemModelGenerators);
     }
 
     private static void simpleItem(Item item, ItemModelGenerators itemModelGenerators) {
-        System.out.println("Registered Item Model");
-        itemModelGenerators.createFlatItemModel(item, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(item, ModelTemplates.FLAT_ITEM);
+
     }
 
     @Override
