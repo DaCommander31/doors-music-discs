@@ -77,6 +77,27 @@ public class ModItems {
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "the_mines_teaser_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TEASER_KEY)));
     public static final Item THE_MINES_TRAILER_MUSIC_DISC = registerItem("the_mines_trailer_music_disc",
             new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "the_mines_trailer_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TRAILER_KEY)));
+    public static final Item UNWRAPPED_MUSIC_DISC = registerItem("unwrapped_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "unwrapped_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNWRAPPED_KEY)));
+    public static final Item SELF_MUSIC_DISC = registerItem("self_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "self_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SELF_KEY)));
+    public static final Item WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC = registerItem("where_forgotten_memories_go_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "where_forgotten_memories_go_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO_KEY)));
+    public static final Item _77825_DAYS_MUSIC_DISC = registerItem("77825_days_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "77825_days_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_77825_DAYS_KEY)));
+    public static final Item YOURE_HIRED_MUSIC_DISC = registerItem("youre_hired_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "youre_hired_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_YOURE_HIRED_KEY)));
+    public static final Item LETS_GET_TO_WORK_MUSIC_DISC = registerItem("lets_get_to_work_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "lets_get_to_work_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_LETS_GET_TO_WORK_KEY)));
+    public static final Item RECONNECTING_MUSIC_DISC = registerItem("reconnecting_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "reconnecting_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_RECONNECTING_KEY)));
+    public static final Item FORGET_ME_NOT_MUSIC_DISC = registerItem("forget_me_not_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "forget_me_not_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_FORGET_ME_NOT_KEY)));
+    public static final Item R4NS0M_MUSIC_DISC = registerItem("r4ns0m_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "r4ns0m_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_R4NS0M_KEY)));
+    public static final Item UNRECOVERABLE_MUSIC_DISC = registerItem("unrecoverable_music_disc",
+            new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, "unrecoverable_music_disc"))).maxCount(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNRECOVERABLE_KEY)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, name), item);
