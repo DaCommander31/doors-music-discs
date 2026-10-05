@@ -5,8 +5,6 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.RecipeGenerator;
-import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
@@ -294,13 +292,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShaped(RecipeCategory.MISC, ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC)
                         .input('R', ModItems.RESONATOR)
                         .input('G', Items.GRASS_BLOCK)
-                        .input('P', Items.DIRT_PATH)
+                        .input('A', Items.GRAVEL)
                         .input('S', ItemTags.SAPLINGS)
                         .input('B', Items.BONE)
                         .input('V', Items.VINE)
                         .pattern("VBV")
                         .pattern("SRS")
-                        .pattern("GPG")
+                        .pattern("GAG")
                         .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
                         .offerTo(exporter);
 
@@ -403,6 +401,129 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input(Items.REDSTONE)
                         .input(ModItems.INSTRUMENT_SHUFFLER)
                         .criterion(hasItem(ModItems.THE_MINES_TEASER_MUSIC_DISC), conditionsFromItem(ModItems.THE_MINES_TEASER_MUSIC_DISC))
+                        .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.UNWRAPPED_MUSIC_DISC)
+                        .input('R', ModItems.RESONATOR)
+                        .input('P', ItemTags.PLANKS)
+                        .input('G', Items.GREEN_WOOL)
+                        .input('W', Items.RED_WOOL)
+                        .input('F', Items.ROTTEN_FLESH)
+                        .input('N', Items.GOLD_NUGGET)
+                        .pattern("NWN")
+                        .pattern("GRG")
+                        .pattern("PFP")
+                        .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.SELF_MUSIC_DISC)
+                        .input('R', ModItems.RESONATOR)
+                        .input('E', Items.ECHO_SHARD)
+                        .input('G', Items.GLASS_PANE)
+                        .input('A', Items.AMETHYST_SHARD)
+                        .input('D', Items.REDSTONE)
+                        .pattern("DED")
+                        .pattern("GRG")
+                        .pattern("DAD")
+                        .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC)
+                        .input('R', ModItems.RESONATOR)
+                        .input('E', Items.ECHO_SHARD)
+                        .input('B', Items.BOOK)
+                        .input('P', Items.PAPER)
+                        .input('O', Items.OBSIDIAN)
+                        .pattern("PEP")
+                        .pattern("BRB")
+                        .pattern("POP")
+                        .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems._77825_DAYS_MUSIC_DISC)
+                        .input('W', ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC)
+                        .input('C', Items.CLOCK)
+                        .input('S', ModItems.INSTRUMENT_SHUFFLER)
+                        .input('G', Items.GLASS_PANE)
+                        .input('I', Items.IRON_INGOT)
+                        .pattern("ICI")
+                        .pattern("GWG")
+                        .pattern("ISI")
+                        .criterion(hasItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC), conditionsFromItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC))
+                        .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.YOURE_HIRED_MUSIC_DISC)
+                        .input('R', ModItems.RESONATOR)
+                        .input('P', Items.PAPER)
+                        .input('L', ItemTags.PLANKS)
+                        .input('E', Items.EMERALD)
+                        .pattern("EPE")
+                        .pattern("PRP")
+                        .pattern("LLL")
+                        .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.LETS_GET_TO_WORK_MUSIC_DISC)
+                        .input('W', ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC)
+                        .input('P', Items.PAPER)
+                        .input('B', Items.BLACK_DYE)
+                        .input('N', Items.BEEHIVE)
+                        .input('I', Items.IRON_INGOT)
+                        .input('S', ModItems.INSTRUMENT_SHUFFLER)
+                        .pattern("PBP")
+                        .pattern("NWN")
+                        .pattern("ISI")
+                        .criterion(hasItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC), conditionsFromItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC))
+                        .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.RECONNECTING_MUSIC_DISC)
+                        .input('R', ModItems.RESONATOR)
+                        .input('C', Items.COPPER_INGOT)
+                        .input('Q', Items.QUARTZ)
+                        .input('L', Items.LIGHTNING_ROD)
+                        .input('D', Items.REDSTONE)
+                        .pattern("CLC")
+                        .pattern("QRQ")
+                        .pattern("CDC")
+                        .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.FORGET_ME_NOT_MUSIC_DISC)
+                        .input('R', ModItems.RESONATOR)
+                        .input('C', Items.CORNFLOWER)
+                        .input('E', Items.ECHO_SHARD)
+                        .input('V', Items.VINE)
+                        .pattern("VEV")
+                        .pattern("CRC")
+                        .pattern("VCV")
+                        .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.R4NS0M_MUSIC_DISC)
+                        .input('R', ModItems.RESONATOR)
+                        .input('D', Items.REDSTONE)
+                        .input('G', Items.GOLD_INGOT)
+                        .input('N', Items.GOLD_NUGGET)
+                        .input('L', Items.LIGHTNING_ROD)
+                        .pattern("NLN")
+                        .pattern("GRG")
+                        .pattern("NDN")
+                        .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.UNRECOVERABLE_MUSIC_DISC)
+                        .input('R', ModItems.R4NS0M_MUSIC_DISC)
+                        .input('D', Items.REDSTONE)
+                        .input('E', Items.ECHO_SHARD)
+                        .input('I', ModItems.INSTRUMENT_SHUFFLER)
+                        .input('C', Items.CRYING_OBSIDIAN)
+                        .pattern("DED")
+                        .pattern("CRC")
+                        .pattern("CIC")
+                        .criterion(hasItem(ModItems.R4NS0M_MUSIC_DISC), conditionsFromItem(ModItems.R4NS0M_MUSIC_DISC))
                         .criterion(hasItem(ModItems.INSTRUMENT_SHUFFLER), conditionsFromItem(ModItems.INSTRUMENT_SHUFFLER))
                         .offerTo(exporter);
             }

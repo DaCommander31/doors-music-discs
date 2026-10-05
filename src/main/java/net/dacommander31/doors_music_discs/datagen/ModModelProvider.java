@@ -53,6 +53,16 @@ public class ModModelProvider extends FabricModelProvider {
         simpleItem(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.THE_MINES_TEASER_MUSIC_DISC, itemModelGenerator);
         simpleItem(ModItems.THE_MINES_TRAILER_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.UNWRAPPED_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.SELF_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems._77825_DAYS_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.YOURE_HIRED_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.LETS_GET_TO_WORK_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.RECONNECTING_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.FORGET_ME_NOT_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.R4NS0M_MUSIC_DISC, itemModelGenerator);
+        simpleItem(ModItems.UNRECOVERABLE_MUSIC_DISC, itemModelGenerator);
     }
 
     private static void simpleItem(Item item, ItemModelGenerator itemModelGenerator) {
