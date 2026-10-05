@@ -73,7 +73,26 @@ public class ModSounds {
     public static RegistryKey<JukeboxSong> MUSIC_DISC_THE_MINES_TEASER_KEY = registerJukeboxSong("music_disc.the_mines_teaser");
     public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_THE_MINES_TRAILER = registerReference("music_disc.the_mines_trailer");
     public static RegistryKey<JukeboxSong> MUSIC_DISC_THE_MINES_TRAILER_KEY = registerJukeboxSong("music_disc.the_mines_trailer");
-
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_UNWRAPPED = registerReference("music_disc.unwrapped");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_UNWRAPPED_KEY = registerJukeboxSong("music_disc.unwrapped");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_SELF = registerReference("music_disc.self");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_SELF_KEY = registerJukeboxSong("music_disc.self");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO = registerReference("music_disc.where_forgotten_memories_go");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO_KEY = registerJukeboxSong("music_disc.where_forgotten_memories_go");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_77825_DAYS = registerReference("music_disc.77825_days");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_77825_DAYS_KEY = registerJukeboxSong("music_disc.77825_days");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_YOURE_HIRED = registerReference("music_disc.youre_hired");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_YOURE_HIRED_KEY = registerJukeboxSong("music_disc.youre_hired");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_LETS_GET_TO_WORK = registerReference("music_disc.lets_get_to_work");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_LETS_GET_TO_WORK_KEY = registerJukeboxSong("music_disc.lets_get_to_work");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_RECONNECTING = registerReference("music_disc.reconnecting");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_RECONNECTING_KEY = registerJukeboxSong("music_disc.reconnecting");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_FORGET_ME_NOT = registerReference("music_disc.forget_me_not");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_FORGET_ME_NOT_KEY = registerJukeboxSong("music_disc.forget_me_not");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_R4NS0M = registerReference("music_disc.r4ns0m");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_R4NS0M_KEY = registerJukeboxSong("music_disc.r4ns0m");
+    public static RegistryEntry.Reference<SoundEvent> MUSIC_DISC_UNRECOVERABLE = registerReference("music_disc.unrecoverable");
+    public static RegistryKey<JukeboxSong> MUSIC_DISC_UNRECOVERABLE_KEY = registerJukeboxSong("music_disc.unrecoverable");
 
     public static RegistryKey<JukeboxSong> registerJukeboxSong(String name) {
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, name));
