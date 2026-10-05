@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     "doors_music_discs:the_mines_teaser_music_disc",
     "minecraft:redstone",

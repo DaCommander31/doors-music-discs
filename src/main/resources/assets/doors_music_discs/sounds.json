@@ -246,5 +246,85 @@
         "stream": true
       }
     ]
+  },
+  "music_disc.unwrapped": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/unwrapped",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.self": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/self",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.where_forgotten_memories_go": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/where_forgotten_memories_go",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.77825_days": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/77825_days",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.youre_hired": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/youre_hired",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.lets_get_to_work": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/lets_get_to_work",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.reconnecting": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/reconnecting",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.forget_me_not": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/forget_me_not",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.r4ns0m": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/r4ns0m",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.unrecoverable": {
+    "sounds": [
+      {
+        "name": "doors_music_discs:music_disc/unrecoverable",
+        "stream": true
+      }
+    ]
   }
 }

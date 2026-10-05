@@ -53,11 +53,21 @@ public class ModModelProvider extends FabricModelProvider {
         simpleItem(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC, itemModelGenerators);
         simpleItem(ModItems.THE_MINES_TEASER_MUSIC_DISC, itemModelGenerators);
         simpleItem(ModItems.THE_MINES_TRAILER_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.UNWRAPPED_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.SELF_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems._77825_DAYS_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.YOURE_HIRED_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.LETS_GET_TO_WORK_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.RECONNECTING_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.FORGET_ME_NOT_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.R4NS0M_MUSIC_DISC, itemModelGenerators);
+        simpleItem(ModItems.UNRECOVERABLE_MUSIC_DISC, itemModelGenerators);
     }
 
     private static void simpleItem(Item item, ItemModelGenerators itemModelGenerators) {
         System.out.println("Registered Item Model");
-        itemModelGenerators.createFlatItemModel(item, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(item, ModelTemplates.FLAT_ITEM);
     }
 
     @Override

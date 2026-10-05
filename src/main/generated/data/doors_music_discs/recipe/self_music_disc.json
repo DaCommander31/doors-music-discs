@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "D": "minecraft:redstone",
+    "E": "minecraft:echo_shard",
+    "G": "minecraft:glass_pane",
+    "R": "doors_music_discs:resonator"
+  },
+  "pattern": [
+    "DED",
+    "GRG",
+    "DAD"
+  ],
+  "result": {
+    "id": "doors_music_discs:self_music_disc"
+  }
+}

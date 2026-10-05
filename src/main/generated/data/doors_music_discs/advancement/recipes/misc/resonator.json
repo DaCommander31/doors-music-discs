@@ -33,7 +33,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "doors_music_discs:resonator"
+        "recipes": "doors_music_discs:resonator"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

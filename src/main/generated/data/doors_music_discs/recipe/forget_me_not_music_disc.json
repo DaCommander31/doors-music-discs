@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "C": "minecraft:cornflower",
+    "E": "minecraft:echo_shard",
+    "R": "doors_music_discs:resonator",
+    "V": "minecraft:vine"
+  },
+  "pattern": [
+    "VEV",
+    "CRC",
+    "VCV"
+  ],
+  "result": {
+    "id": "doors_music_discs:forget_me_not_music_disc"
+  }
+}

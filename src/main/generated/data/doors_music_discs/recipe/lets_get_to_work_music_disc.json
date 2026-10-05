@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": "minecraft:black_dye",
+    "I": "minecraft:iron_ingot",
+    "N": "minecraft:beehive",
+    "P": "minecraft:paper",
+    "S": "doors_music_discs:instrument_shuffler",
+    "W": "doors_music_discs:where_forgotten_memories_go_music_disc"
+  },
+  "pattern": [
+    "PBP",
+    "NWN",
+    "ISI"
+  ],
+  "result": {
+    "id": "doors_music_discs:lets_get_to_work_music_disc"
+  }
+}

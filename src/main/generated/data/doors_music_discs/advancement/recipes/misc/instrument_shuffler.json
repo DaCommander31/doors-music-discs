@@ -23,7 +23,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "doors_music_discs:instrument_shuffler"
+        "recipes": "doors_music_discs:instrument_shuffler"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

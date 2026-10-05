@@ -3,13 +3,17 @@ package net.dacommander31.doors_music_discs.datagen;
 import net.dacommander31.doors_music_discs.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
+import net.fabricmc.fabric.impl.advancement.AdvancementLookup;
+import net.minecraft.advancements.Advancement;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.tags.BlockItemTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Recipe;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -19,8 +23,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     }
 
     @Override
-    protected RecipeProvider createRecipeProvider(HolderLookup.Provider registries, RecipeOutput output) {
-        return new RecipeProvider(registries, output) {
+    protected RecipeProvider createRecipeProvider(HolderLookup.Provider recipes, BootstrapContext<Recipe<?>> recipeOutput, BootstrapContext<Advancement> advancementOutput) {
+        return new RecipeProvider(recipeOutput, advancementOutput) {
             @Override
             public void buildRecipes() {
                 shaped(RecipeCategory.MISC, ModItems.RESONATOR)
@@ -402,6 +406,129 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .requires(Items.REDSTONE)
                         .requires(ModItems.INSTRUMENT_SHUFFLER)
                         .unlockedBy(getHasName(ModItems.THE_MINES_TEASER_MUSIC_DISC), has(ModItems.THE_MINES_TEASER_MUSIC_DISC))
+                        .unlockedBy(getHasName(ModItems.INSTRUMENT_SHUFFLER), has(ModItems.INSTRUMENT_SHUFFLER))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.UNWRAPPED_MUSIC_DISC)
+                        .define('R', ModItems.RESONATOR)
+                        .define('P', ItemTags.PLANKS)
+                        .define('G', Items.WOOL.green())
+                        .define('W', Items.WOOL.red())
+                        .define('F', Items.ROTTEN_FLESH)
+                        .define('N', Items.GOLD_NUGGET)
+                        .pattern("NWN")
+                        .pattern("GRG")
+                        .pattern("PFP")
+                        .unlockedBy(getHasName(ModItems.RESONATOR), has(ModItems.RESONATOR))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.SELF_MUSIC_DISC)
+                        .define('R', ModItems.RESONATOR)
+                        .define('E', Items.ECHO_SHARD)
+                        .define('G', Items.GLASS_PANE)
+                        .define('A', Items.AMETHYST_SHARD)
+                        .define('D', Items.REDSTONE)
+                        .pattern("DED")
+                        .pattern("GRG")
+                        .pattern("DAD")
+                        .unlockedBy(getHasName(ModItems.RESONATOR), has(ModItems.RESONATOR))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC)
+                        .define('R', ModItems.RESONATOR)
+                        .define('E', Items.ECHO_SHARD)
+                        .define('B', Items.BOOK)
+                        .define('P', Items.PAPER)
+                        .define('O', Items.OBSIDIAN)
+                        .pattern("PEP")
+                        .pattern("BRB")
+                        .pattern("POP")
+                        .unlockedBy(getHasName(ModItems.RESONATOR), has(ModItems.RESONATOR))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems._77825_DAYS_MUSIC_DISC)
+                        .define('W', ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC)
+                        .define('C', Items.CLOCK)
+                        .define('S', ModItems.INSTRUMENT_SHUFFLER)
+                        .define('G', Items.GLASS_PANE)
+                        .define('I', Items.IRON_INGOT)
+                        .pattern("ICI")
+                        .pattern("GWG")
+                        .pattern("ISI")
+                        .unlockedBy(getHasName(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC), has(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC))
+                        .unlockedBy(getHasName(ModItems.INSTRUMENT_SHUFFLER), has(ModItems.INSTRUMENT_SHUFFLER))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.YOURE_HIRED_MUSIC_DISC)
+                        .define('R', ModItems.RESONATOR)
+                        .define('P', Items.PAPER)
+                        .define('L', ItemTags.PLANKS)
+                        .define('E', Items.EMERALD)
+                        .pattern("EPE")
+                        .pattern("PRP")
+                        .pattern("LLL")
+                        .unlockedBy(getHasName(ModItems.RESONATOR), has(ModItems.RESONATOR))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.LETS_GET_TO_WORK_MUSIC_DISC)
+                        .define('W', ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC)
+                        .define('P', Items.PAPER)
+                        .define('B', Items.DYE.black())
+                        .define('N', Items.BEEHIVE)
+                        .define('I', Items.IRON_INGOT)
+                        .define('S', ModItems.INSTRUMENT_SHUFFLER)
+                        .pattern("PBP")
+                        .pattern("NWN")
+                        .pattern("ISI")
+                        .unlockedBy(getHasName(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC), has(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC))
+                        .unlockedBy(getHasName(ModItems.INSTRUMENT_SHUFFLER), has(ModItems.INSTRUMENT_SHUFFLER))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.RECONNECTING_MUSIC_DISC)
+                        .define('R', ModItems.RESONATOR)
+                        .define('C', Items.COPPER_INGOT)
+                        .define('Q', Items.QUARTZ)
+                        .define('L', Items.LIGHTNING_ROD.asList().getFirst())
+                        .define('D', Items.REDSTONE)
+                        .pattern("CLC")
+                        .pattern("QRQ")
+                        .pattern("CDC")
+                        .unlockedBy(getHasName(ModItems.RESONATOR), has(ModItems.RESONATOR))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.FORGET_ME_NOT_MUSIC_DISC)
+                        .define('R', ModItems.RESONATOR)
+                        .define('C', Items.CORNFLOWER)
+                        .define('E', Items.ECHO_SHARD)
+                        .define('V', Items.VINE)
+                        .pattern("VEV")
+                        .pattern("CRC")
+                        .pattern("VCV")
+                        .unlockedBy(getHasName(ModItems.RESONATOR), has(ModItems.RESONATOR))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.R4NS0M_MUSIC_DISC)
+                        .define('R', ModItems.RESONATOR)
+                        .define('D', Items.REDSTONE)
+                        .define('G', Items.GOLD_INGOT)
+                        .define('N', Items.GOLD_NUGGET)
+                        .define('L', Items.LIGHTNING_ROD.asList().getFirst())
+                        .pattern("NLN")
+                        .pattern("GRG")
+                        .pattern("NDN")
+                        .unlockedBy(getHasName(ModItems.RESONATOR), has(ModItems.RESONATOR))
+                        .save(output);
+
+                shaped(RecipeCategory.MISC, ModItems.UNRECOVERABLE_MUSIC_DISC)
+                        .define('R', ModItems.R4NS0M_MUSIC_DISC)
+                        .define('D', Items.REDSTONE)
+                        .define('E', Items.ECHO_SHARD)
+                        .define('I', ModItems.INSTRUMENT_SHUFFLER)
+                        .define('C', Items.CRYING_OBSIDIAN)
+                        .pattern("DED")
+                        .pattern("CRC")
+                        .pattern("CIC")
+                        .unlockedBy(getHasName(ModItems.R4NS0M_MUSIC_DISC), has(ModItems.R4NS0M_MUSIC_DISC))
                         .unlockedBy(getHasName(ModItems.INSTRUMENT_SHUFFLER), has(ModItems.INSTRUMENT_SHUFFLER))
                         .save(output);
             }
