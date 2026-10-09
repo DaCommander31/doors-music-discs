@@ -80,6 +80,26 @@ public class ModItems {
             () -> new RecordItem(13, ModSounds.MUSIC_DISC_THE_MINES_TEASER, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1140));
     public static final RegistryObject<Item> THE_MINES_TRAILER_MUSIC_DISC = ITEMS.register("the_mines_trailer_music_disc",
             () -> new RecordItem(14, ModSounds.MUSIC_DISC_THE_MINES_TRAILER, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1040));
+    public static final RegistryObject<Item> UNWRAPPED_MUSIC_DISC = ITEMS.register("unwrapped_music_disc",
+            () -> new RecordItem(15, ModSounds.MUSIC_DISC_UNWRAPPED, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3980));
+    public static final RegistryObject<Item> SELF_MUSIC_DISC = ITEMS.register("self_music_disc",
+            () -> new RecordItem(1, ModSounds.MUSIC_DISC_SELF, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3140));
+    public static final RegistryObject<Item> WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC = ITEMS.register("where_forgotten_memories_go_music_disc",
+            () -> new RecordItem(2, ModSounds.MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2620));
+    public static final RegistryObject<Item> _77825_DAYS_MUSIC_DISC = ITEMS.register("77825_days_music_disc",
+            () -> new RecordItem(3, ModSounds.MUSIC_DISC_77825_DAYS, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2120));
+    public static final RegistryObject<Item> YOURE_HIRED_MUSIC_DISC = ITEMS.register("youre_hired_music_disc",
+            () -> new RecordItem(4, ModSounds.MUSIC_DISC_YOURE_HIRED, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1800));
+    public static final RegistryObject<Item> LETS_GET_TO_WORK_MUSIC_DISC = ITEMS.register("lets_get_to_work_music_disc",
+            () -> new RecordItem(5, ModSounds.MUSIC_DISC_LETS_GET_TO_WORK, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3840));
+    public static final RegistryObject<Item> RECONNECTING_MUSIC_DISC = ITEMS.register("reconnecting_music_disc",
+            () -> new RecordItem(6, ModSounds.MUSIC_DISC_RECONNECTING, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1720));
+    public static final RegistryObject<Item> FORGET_ME_NOT_MUSIC_DISC = ITEMS.register("forget_me_not_music_disc",
+            () -> new RecordItem(7, ModSounds.MUSIC_DISC_FORGET_ME_NOT, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1200));
+    public static final RegistryObject<Item> R4NS0M_MUSIC_DISC = ITEMS.register("r4ns0m_music_disc",
+            () -> new RecordItem(8, ModSounds.MUSIC_DISC_R4NS0M, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 1680));
+    public static final RegistryObject<Item> UNRECOVERABLE_MUSIC_DISC = ITEMS.register("unrecoverable_music_disc",
+            () -> new RecordItem(9, ModSounds.MUSIC_DISC_UNRECOVERABLE, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2800));
 
 
     public static void register(IEventBus eventBus) {

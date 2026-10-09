@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "I": {
+      "item": "doors_music_discs:instrument_shuffler"
+    },
+    "R": {
+      "item": "doors_music_discs:r4ns0m_music_disc"
+    }
+  },
+  "pattern": [
+    "DED",
+    "CRC",
+    "CIC"
+  ],
+  "result": {
+    "item": "doors_music_discs:unrecoverable_music_disc"
+  }
+}

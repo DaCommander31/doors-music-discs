@@ -43,6 +43,16 @@ public class ModSounds {
     public static RegistryObject<SoundEvent> MUSIC_DISC_CONTENT_CONTENT_CONTENT = registerSoundEvent("music_disc.content_content_content");
     public static RegistryObject<SoundEvent> MUSIC_DISC_THE_MINES_TEASER = registerSoundEvent("music_disc.the_mines_teaser");
     public static RegistryObject<SoundEvent> MUSIC_DISC_THE_MINES_TRAILER = registerSoundEvent("music_disc.the_mines_trailer");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_UNWRAPPED = registerSoundEvent("music_disc.unwrapped");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_SELF = registerSoundEvent("music_disc.self");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO = registerSoundEvent("music_disc.where_forgotten_memories_go");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_77825_DAYS = registerSoundEvent("music_disc.77825_days");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_YOURE_HIRED = registerSoundEvent("music_disc.youre_hired");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_LETS_GET_TO_WORK = registerSoundEvent("music_disc.lets_get_to_work");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_RECONNECTING = registerSoundEvent("music_disc.reconnecting");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_FORGET_ME_NOT = registerSoundEvent("music_disc.forget_me_not");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_R4NS0M = registerSoundEvent("music_disc.r4ns0m");
+    public static RegistryObject<SoundEvent> MUSIC_DISC_UNRECOVERABLE = registerSoundEvent("music_disc.unrecoverable");
 
 
 
