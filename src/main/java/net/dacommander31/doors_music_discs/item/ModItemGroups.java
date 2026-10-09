@@ -48,6 +48,16 @@ public class ModItemGroups {
                         entries.add(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC);
                         entries.add(ModItems.THE_MINES_TEASER_MUSIC_DISC);
                         entries.add(ModItems.THE_MINES_TRAILER_MUSIC_DISC);
+                        entries.add(ModItems.UNWRAPPED_MUSIC_DISC);
+                        entries.add(ModItems.SELF_MUSIC_DISC);
+                        entries.add(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC);
+                        entries.add(ModItems._77825_DAYS_MUSIC_DISC);
+                        entries.add(ModItems.YOURE_HIRED_MUSIC_DISC);
+                        entries.add(ModItems.LETS_GET_TO_WORK_MUSIC_DISC);
+                        entries.add(ModItems.RECONNECTING_MUSIC_DISC);
+                        entries.add(ModItems.FORGET_ME_NOT_MUSIC_DISC);
+                        entries.add(ModItems.R4NS0M_MUSIC_DISC);
+                        entries.add(ModItems.UNRECOVERABLE_MUSIC_DISC);
                     })
                     .build());
 
