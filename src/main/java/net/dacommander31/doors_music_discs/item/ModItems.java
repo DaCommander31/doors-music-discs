@@ -76,6 +76,26 @@ public class ModItems {
             new MusicDiscItem(13, ModSounds.MUSIC_DISC_THE_MINES_TEASER, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 57));
     public static final Item THE_MINES_TRAILER_MUSIC_DISC = registerItem("the_mines_trailer_music_disc",
             new MusicDiscItem(14, ModSounds.MUSIC_DISC_THE_MINES_TRAILER, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 52));
+    public static final Item UNWRAPPED_MUSIC_DISC = registerItem("unwrapped_music_disc",
+            new MusicDiscItem(15, ModSounds.MUSIC_DISC_UNWRAPPED, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 199));
+    public static final Item SELF_MUSIC_DISC = registerItem("self_music_disc",
+            new MusicDiscItem(1, ModSounds.MUSIC_DISC_SELF, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 157));
+    public static final Item WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC = registerItem("where_forgotten_memories_go_music_disc",
+            new MusicDiscItem(2, ModSounds.MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 131));
+    public static final Item _77825_DAYS_MUSIC_DISC = registerItem("77825_days_music_disc",
+            new MusicDiscItem(3, ModSounds.MUSIC_DISC_77825_DAYS, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 106));
+    public static final Item YOURE_HIRED_MUSIC_DISC = registerItem("youre_hired_music_disc",
+            new MusicDiscItem(4, ModSounds.MUSIC_DISC_YOURE_HIRED, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 90));
+    public static final Item LETS_GET_TO_WORK_MUSIC_DISC = registerItem("lets_get_to_work_music_disc",
+            new MusicDiscItem(5, ModSounds.MUSIC_DISC_LETS_GET_TO_WORK, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 174));
+    public static final Item RECONNECTING_MUSIC_DISC = registerItem("reconnecting_music_disc",
+            new MusicDiscItem(6, ModSounds.MUSIC_DISC_RECONNECTING, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 86));
+    public static final Item FORGET_ME_NOT_MUSIC_DISC = registerItem("forget_me_not_music_disc",
+            new MusicDiscItem(7, ModSounds.MUSIC_DISC_FORGET_ME_NOT, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 60));
+    public static final Item R4NS0M_MUSIC_DISC = registerItem("r4ns0m_music_disc",
+            new MusicDiscItem(8, ModSounds.MUSIC_DISC_R4NS0M, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 84));
+    public static final Item UNRECOVERABLE_MUSIC_DISC = registerItem("unrecoverable_music_disc",
+            new MusicDiscItem(9, ModSounds.MUSIC_DISC_UNRECOVERABLE, new Item.Settings().maxCount(1).rarity(Rarity.RARE), 140));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(RobloxDoorsMusicDiscs.MOD_ID, name), item);

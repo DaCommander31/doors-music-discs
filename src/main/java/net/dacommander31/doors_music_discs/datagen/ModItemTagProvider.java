@@ -46,6 +46,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         ModItems.DEALS_OF_THE_DOORS_MUSIC_DISC,
                         ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC,
                         ModItems.THE_MINES_TEASER_MUSIC_DISC,
-                        ModItems.THE_MINES_TRAILER_MUSIC_DISC);
+                        ModItems.THE_MINES_TRAILER_MUSIC_DISC,
+                        ModItems.UNWRAPPED_MUSIC_DISC,
+                        ModItems.SELF_MUSIC_DISC,
+                        ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC,
+                        ModItems._77825_DAYS_MUSIC_DISC,
+                        ModItems.YOURE_HIRED_MUSIC_DISC,
+                        ModItems.LETS_GET_TO_WORK_MUSIC_DISC,
+                        ModItems.RECONNECTING_MUSIC_DISC,
+                        ModItems.FORGET_ME_NOT_MUSIC_DISC,
+                        ModItems.R4NS0M_MUSIC_DISC,
+                        ModItems.UNRECOVERABLE_MUSIC_DISC
+                );
     }
 }
