@@ -14,7 +14,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RobloxDoorsMusicDiscs.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> ROBLOX_DOORS_MUSIC_DISCS = CREATIVE_MODE_TABS.register("roblox_doors_music_discs",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.DAWN_OF_THE_DOORS_MUSIC_DISC.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RESONATOR.get()))
                     .title(Component.translatable("creativetab.doors_music_discs.roblox_doors_music_discs"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RESONATOR.get());
@@ -50,6 +50,16 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC.get());
                         output.accept(ModItems.THE_MINES_TEASER_MUSIC_DISC.get());
                         output.accept(ModItems.THE_MINES_TRAILER_MUSIC_DISC.get());
+                        output.accept(ModItems.UNWRAPPED_MUSIC_DISC.get());
+                        output.accept(ModItems.SELF_MUSIC_DISC.get());
+                        output.accept(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC.get());
+                        output.accept(ModItems._77825_DAYS_MUSIC_DISC.get());
+                        output.accept(ModItems.YOURE_HIRED_MUSIC_DISC.get());
+                        output.accept(ModItems.LETS_GET_TO_WORK_MUSIC_DISC.get());
+                        output.accept(ModItems.RECONNECTING_MUSIC_DISC.get());
+                        output.accept(ModItems.FORGET_ME_NOT_MUSIC_DISC.get());
+                        output.accept(ModItems.R4NS0M_MUSIC_DISC.get());
+                        output.accept(ModItems.UNRECOVERABLE_MUSIC_DISC.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
