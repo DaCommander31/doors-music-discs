@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "B": "minecraft:bone",
     "H": "minecraft:iron_hoe",
@@ -16,7 +15,6 @@
     "VLV"
   ],
   "result": {
-    "count": 1,
     "id": "doors_music_discs:son_of_a_birch_music_disc"
   }
 }

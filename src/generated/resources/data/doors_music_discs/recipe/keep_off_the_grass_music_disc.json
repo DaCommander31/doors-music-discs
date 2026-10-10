@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "B": "minecraft:bone",
     "G": "minecraft:grass_block",
@@ -18,7 +17,6 @@
     "GPB"
   ],
   "result": {
-    "count": 1,
     "id": "doors_music_discs:keep_off_the_grass_music_disc"
   }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "B": "minecraft:bone",
     "C": "minecraft:fire_charge",
@@ -14,7 +13,6 @@
     "BLB"
   ],
   "result": {
-    "count": 1,
     "id": "doors_music_discs:unhinged_2_music_disc"
   }
 }

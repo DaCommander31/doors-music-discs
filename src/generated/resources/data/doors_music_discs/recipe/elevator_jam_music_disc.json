@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "B": "#minecraft:buttons",
     "I": "minecraft:iron_bars",
@@ -13,7 +12,6 @@
     "IZI"
   ],
   "result": {
-    "count": 1,
     "id": "doors_music_discs:elevator_jam_music_disc"
   }
 }
