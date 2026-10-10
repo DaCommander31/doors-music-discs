@@ -12,79 +12,96 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.function.Supplier;
-
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, RobloxDoorsMusicDiscs.MOD_ID);
 
     public static final RegistryObject<Item> RESONATOR = registerItem("resonator",
-            new Item.Properties());
+           new Item.Properties());
     public static final RegistryObject<Item> INSTRUMENT_SHUFFLER = registerItem("instrument_shuffler",
-            new Item.Properties());
+           new Item.Properties());
     public static final RegistryObject<Item> DAWN_OF_THE_DOORS_MUSIC_DISC = registerItem("dawn_of_the_doors_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DAWN_OF_THE_DOORS_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DAWN_OF_THE_DOORS_KEY));
     public static final RegistryObject<Item> ELEVATOR_JAM_MUSIC_DISC = registerItem("elevator_jam_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_KEY));
     public static final RegistryObject<Item> GUIDING_LIGHT_MUSIC_DISC = registerItem("guiding_light_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_GUIDING_LIGHT_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_GUIDING_LIGHT_KEY));
     public static final RegistryObject<Item> UNHINGED_MUSIC_DISC = registerItem("unhinged_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNHINGED_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNHINGED_KEY));
     public static final RegistryObject<Item> HERE_I_COME_MUSIC_DISC = registerItem("here_i_come_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_HERE_I_COME_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_HERE_I_COME_KEY));
     public static final RegistryObject<Item> JEFFS_JINGLE_MUSIC_DISC = registerItem("jeffs_jingle_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_JEFFS_JINGLE_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_JEFFS_JINGLE_KEY));
     public static final RegistryObject<Item> UNHINGED_2_MUSIC_DISC = registerItem("unhinged_2_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNHINGED_2_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNHINGED_2_KEY));
     public static final RegistryObject<Item> ELEVATOR_JAMMED_MUSIC_DISC = registerItem("elevator_jammed_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAMMED_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAMMED_KEY));
     public static final RegistryObject<Item> ELEVATOR_JAM_REMIX_MUSIC_DISC = registerItem("elevator_jam_remix_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_REMIX_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_REMIX_KEY));
     public static final RegistryObject<Item> DOORS_TRAILER_REMIX_MUSIC_DISC = registerItem("doors_trailer_remix_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DOORS_TRAILER_REMIX_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DOORS_TRAILER_REMIX_KEY));
     public static final RegistryObject<Item> DUSK_OF_THE_DOORS_MUSIC_DISC = registerItem("dusk_of_the_doors_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DUSK_OF_THE_DOORS_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DUSK_OF_THE_DOORS_KEY));
     public static final RegistryObject<Item> CURIOUS_LIGHT_MUSIC_DISC = registerItem("curious_light_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_CURIOUS_LIGHT_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_CURIOUS_LIGHT_KEY));
     public static final RegistryObject<Item> JEFFS_JINGLE_DNB_REMIX_MUSIC_DISC = registerItem("jeffs_jingle_dnb_remix_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_JEFFS_JINGLE_DNB_REMIX_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_JEFFS_JINGLE_DNB_REMIX_KEY));
     public static final RegistryObject<Item> MAKE_HASTE_MUSIC_DISC = registerItem("make_haste_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_MAKE_HASTE_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_MAKE_HASTE_KEY));
     public static final RegistryObject<Item> SEEK_MERCH_TRAILER_THEME_MUSIC_DISC = registerItem("seek_merch_trailer_theme_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SEEK_MERCH_TRAILER_THEME_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SEEK_MERCH_TRAILER_THEME_KEY));
     public static final RegistryObject<Item> ELEVATOR_JAM_RETRO_MODE_MUSIC_DISC = registerItem("elevator_jam_retro_mode_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_RETRO_MODE_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_RETRO_MODE_KEY));
     public static final RegistryObject<Item> ELEVATOR_JAM_VOICED_MUSIC_DISC = registerItem("elevator_jam_april_fools_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_VOICED_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_ELEVATOR_JAM_VOICED_KEY));
     public static final RegistryObject<Item> READY_OR_NOT_MUSIC_DISC = registerItem("ready_or_not_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_READY_OR_NOT_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_READY_OR_NOT_KEY));
     public static final RegistryObject<Item> READY_TO_RUMBLE_MUSIC_DISC = registerItem("ready_to_rumble_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_READY_TO_RUMBLE_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_READY_TO_RUMBLE_KEY));
     public static final RegistryObject<Item> JEFFS_JAM_MUSIC_DISC = registerItem("jeffs_jam_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_JEFFS_JAM_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_JEFFS_JAM_KEY));
     public static final RegistryObject<Item> OH_DAM_MUSIC_DISC = registerItem("oh_dam_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_OH_DAM_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_OH_DAM_KEY));
     public static final RegistryObject<Item> FRESH_RAIN_MUSIC_DISC = registerItem("fresh_rain_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_FRESH_RAIN_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_FRESH_RAIN_KEY));
     public static final RegistryObject<Item> THE_GREAT_OUTDOORS_MUSIC_DISC = registerItem("the_great_outdoors_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_GREAT_OUTDOORS_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_GREAT_OUTDOORS_KEY));
     public static final RegistryObject<Item> THE_GREAT_INDOORS_MUSIC_DISC = registerItem("the_great_indoors_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_GREAT_INDOORS_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_GREAT_INDOORS_KEY));
     public static final RegistryObject<Item> SON_OF_A_BIRCH_MUSIC_DISC = registerItem("son_of_a_birch_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SON_OF_A_BIRCH_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SON_OF_A_BIRCH_KEY));
     public static final RegistryObject<Item> THORNS_MUSIC_DISC = registerItem("thorns_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THORNS_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THORNS_KEY));
     public static final RegistryObject<Item> KEEP_OFF_THE_GRASS_MUSIC_DISC = registerItem("keep_off_the_grass_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_KEEP_OFF_THE_GRASS_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_KEEP_OFF_THE_GRASS_KEY));
     public static final RegistryObject<Item> DEALS_OF_THE_DOORS_MUSIC_DISC = registerItem("deals_of_the_doors_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DEALS_OF_THE_DOORS_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_DEALS_OF_THE_DOORS_KEY));
     public static final RegistryObject<Item> CONTENT_CONTENT_CONTENT_MUSIC_DISC = registerItem("content_content_content_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_CONTENT_CONTENT_CONTENT_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_CONTENT_CONTENT_CONTENT_KEY));
     public static final RegistryObject<Item> THE_MINES_TEASER_MUSIC_DISC = registerItem("the_mines_teaser_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TEASER_KEY));
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TEASER_KEY));
     public static final RegistryObject<Item> THE_MINES_TRAILER_MUSIC_DISC = registerItem("the_mines_trailer_music_disc",
-            new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TRAILER_KEY));
-
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TRAILER_KEY));
+    public static final RegistryObject<Item> UNWRAPPED_MUSIC_DISC = registerItem("unwrapped_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNWRAPPED_KEY));
+    public static final RegistryObject<Item> SELF_MUSIC_DISC = registerItem("self_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SELF_KEY));
+    public static final RegistryObject<Item> WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC = registerItem("where_forgotten_memories_go_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO_KEY));
+    public static final RegistryObject<Item> _77825_DAYS_MUSIC_DISC = registerItem("77825_days_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_77825_DAYS_KEY));
+    public static final RegistryObject<Item> YOURE_HIRED_MUSIC_DISC = registerItem("youre_hired_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_YOURE_HIRED_KEY));
+    public static final RegistryObject<Item> LETS_GET_TO_WORK_MUSIC_DISC = registerItem("lets_get_to_work_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_LETS_GET_TO_WORK_KEY));
+    public static final RegistryObject<Item> RECONNECTING_MUSIC_DISC = registerItem("reconnecting_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_RECONNECTING_KEY));
+    public static final RegistryObject<Item> FORGET_ME_NOT_MUSIC_DISC = registerItem("forget_me_not_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_FORGET_ME_NOT_KEY));
+    public static final RegistryObject<Item> R4NS0M_MUSIC_DISC = registerItem("r4ns0m_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_R4NS0M_KEY));
+    public static final RegistryObject<Item> UNRECOVERABLE_MUSIC_DISC = registerItem("unrecoverable_music_disc",
+           new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNRECOVERABLE_KEY));
 
     private static RegistryObject<Item> registerItem(String name, Item.Properties properties) {
         return ITEMS.register(name, () -> new Item(properties.setId(ResourceKey.create(Registries.ITEM,
