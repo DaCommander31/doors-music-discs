@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "doors_music_discs:son_of_a_birch_music_disc"
+        "recipes": "doors_music_discs:son_of_a_birch_music_disc"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

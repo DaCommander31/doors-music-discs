@@ -1,23 +1,25 @@
 package net.dacommander31.doors_music_discs.datagen;
 
 import net.dacommander31.doors_music_discs.item.ModItems;
+import net.minecraft.advancements.Advancement;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.data.advancements.AdvancementProvider;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.tags.BlockItemTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Recipe;
 
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends RecipeProvider {
-    private final RecipeOutput output;
 
-    protected ModRecipeProvider(HolderLookup.Provider registries, RecipeOutput output) {
-        super(registries, output);
-        this.output = output;
+    protected ModRecipeProvider(BootstrapContext<Recipe<?>> recipes, BootstrapContext<Advancement> advancements) {
+        super(recipes, advancements);
     }
 
     @Override
@@ -293,7 +295,7 @@ public class ModRecipeProvider extends RecipeProvider {
         shaped(RecipeCategory.MISC, ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC.get())
                 .define('R', ModItems.RESONATOR.get())
                 .define('G', Items.GRASS_BLOCK)
-                .define('P', Items.DIRT_PATH)
+                .define('P', Items.GRAVEL)
                 .define('S', ItemTags.SAPLINGS)
                 .define('B', Items.BONE)
                 .define('V', Items.VINE)
@@ -527,22 +529,5 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(ModItems.R4NS0M_MUSIC_DISC.get()), has(ModItems.R4NS0M_MUSIC_DISC.get()))
                 .unlockedBy(getHasName(ModItems.INSTRUMENT_SHUFFLER.get()), has(ModItems.INSTRUMENT_SHUFFLER.get()))
                 .save(this.output);
-    }
-
-    public static class Runner extends RecipeProvider.Runner {
-
-        protected Runner(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> registries) {
-            super(packOutput, registries);
-        }
-
-        @Override
-        protected RecipeProvider createRecipeProvider(HolderLookup.Provider provider, RecipeOutput recipeOutput) {
-            return new ModRecipeProvider(provider, recipeOutput);
-        }
-
-        @Override
-        public String getName() {
-            return "Roblox Doors Music Disc Recipes";
-        }
     }
 }

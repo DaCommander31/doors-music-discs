@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "doors_music_discs:keep_off_the_grass_music_disc"
+        "recipes": "doors_music_discs:keep_off_the_grass_music_disc"
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "doors_music_discs:lets_get_to_work_music_disc"
+        "recipes": "doors_music_discs:lets_get_to_work_music_disc"
       },
       "trigger": "minecraft:recipe_unlocked"
     },
