@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:book",
+    "E": "minecraft:echo_shard",
+    "O": "minecraft:obsidian",
+    "P": "minecraft:paper",
+    "R": "doors_music_discs:resonator"
+  },
+  "pattern": [
+    "PEP",
+    "BRB",
+    "POP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:where_forgotten_memories_go_music_disc"
+  }
+}

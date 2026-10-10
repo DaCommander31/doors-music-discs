@@ -77,6 +77,7 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_THE_MINES_TEASER_KEY = registerJukeboxSong("music_disc.the_mines_teaser");
     public static final Supplier<SoundEvent> MUSIC_DISC_THE_MINES_TRAILER = registerSoundEvent("music_disc.the_mines_trailer");
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_THE_MINES_TRAILER_KEY = registerJukeboxSong("music_disc.the_mines_trailer");
+    public static final Supplier<SoundEvent> MUSIC_DISC_UNWRAPPED = registerSoundEvent("music_disc.unwrapped");
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_UNWRAPPED_KEY = registerJukeboxSong("music_disc.unwrapped");
     public static final Supplier<SoundEvent> MUSIC_DISC_SELF = registerSoundEvent("music_disc.self");
     public static final ResourceKey<JukeboxSong> MUSIC_DISC_SELF_KEY = registerJukeboxSong("music_disc.self");
