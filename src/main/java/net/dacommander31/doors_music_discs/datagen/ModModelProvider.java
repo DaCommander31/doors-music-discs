@@ -49,5 +49,15 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.THE_MINES_TEASER_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.THE_MINES_TRAILER_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.UNWRAPPED_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.SELF_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems._77825_DAYS_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.YOURE_HIRED_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.LETS_GET_TO_WORK_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.RECONNECTING_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.FORGET_ME_NOT_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.R4NS0M_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.UNRECOVERABLE_MUSIC_DISC.get(), ModelTemplates.FLAT_ITEM);
     }
 }
