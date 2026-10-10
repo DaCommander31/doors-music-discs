@@ -77,6 +77,26 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TEASER_KEY)));
     public static final DeferredItem<Item> THE_MINES_TRAILER_MUSIC_DISC = ITEMS.register("the_mines_trailer_music_disc",
             () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_THE_MINES_TRAILER_KEY)));
+    public static final DeferredItem<Item> UNWRAPPED_MUSIC_DISC = ITEMS.register("unwrapped_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNWRAPPED_KEY)));
+    public static final DeferredItem<Item> SELF_MUSIC_DISC = ITEMS.register("self_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_SELF_KEY)));
+    public static final DeferredItem<Item> WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC = ITEMS.register("where_forgotten_memories_go_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_WHERE_FORGOTTEN_MEMORIES_GO_KEY)));
+    public static final DeferredItem<Item> _77825_DAYS_MUSIC_DISC = ITEMS.register("77825_days_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_77825_DAYS_KEY)));
+    public static final DeferredItem<Item> YOURE_HIRED_MUSIC_DISC = ITEMS.register("youre_hired_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_YOURE_HIRED_KEY)));
+    public static final DeferredItem<Item> LETS_GET_TO_WORK_MUSIC_DISC = ITEMS.register("lets_get_to_work_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_LETS_GET_TO_WORK_KEY)));
+    public static final DeferredItem<Item> RECONNECTING_MUSIC_DISC = ITEMS.register("reconnecting_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_RECONNECTING_KEY)));
+    public static final DeferredItem<Item> FORGET_ME_NOT_MUSIC_DISC = ITEMS.register("forget_me_not_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_FORGET_ME_NOT_KEY)));
+    public static final DeferredItem<Item> R4NS0M_MUSIC_DISC = ITEMS.register("r4ns0m_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_R4NS0M_KEY)));
+    public static final DeferredItem<Item> UNRECOVERABLE_MUSIC_DISC = ITEMS.register("unrecoverable_music_disc",
+            () -> new Item(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ModSounds.MUSIC_DISC_UNRECOVERABLE_KEY)));
 
 
     public static void register(IEventBus eventBus) {

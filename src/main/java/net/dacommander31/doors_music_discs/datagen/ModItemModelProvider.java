@@ -46,5 +46,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.CONTENT_CONTENT_CONTENT_MUSIC_DISC.get());
         basicItem(ModItems.THE_MINES_TEASER_MUSIC_DISC.get());
         basicItem(ModItems.THE_MINES_TRAILER_MUSIC_DISC.get());
+        basicItem(ModItems.UNWRAPPED_MUSIC_DISC.get());
+        basicItem(ModItems.SELF_MUSIC_DISC.get());
+        basicItem(ModItems.WHERE_FORGOTTEN_MEMORIES_GO_MUSIC_DISC.get());
+        basicItem(ModItems._77825_DAYS_MUSIC_DISC.get());
+        basicItem(ModItems.YOURE_HIRED_MUSIC_DISC.get());
+        basicItem(ModItems.LETS_GET_TO_WORK_MUSIC_DISC.get());
+        basicItem(ModItems.RECONNECTING_MUSIC_DISC.get());
+        basicItem(ModItems.FORGET_ME_NOT_MUSIC_DISC.get());
+        basicItem(ModItems.R4NS0M_MUSIC_DISC.get());
+        basicItem(ModItems.UNRECOVERABLE_MUSIC_DISC.get());
     }
 }
