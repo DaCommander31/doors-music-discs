@@ -290,7 +290,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC)
                 .input('R', ModItems.RESONATOR)
                 .input('G', Items.GRASS_BLOCK)
-                .input('P', Items.DIRT_PATH)
+                .input('P', Items.GRAVEL)
                 .input('S', ItemTags.SAPLINGS)
                 .input('B', Items.BONE)
                 .input('V', Items.VINE)
