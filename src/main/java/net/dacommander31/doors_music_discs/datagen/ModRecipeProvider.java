@@ -290,7 +290,7 @@ public class ModRecipeProvider extends RecipeProvider {
         shaped(RecipeCategory.MISC, ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC.get())
                 .define('R', ModItems.RESONATOR.get())
                 .define('G', Items.GRASS_BLOCK)
-                .define('P', Items.DIRT_PATH)
+                .define('P', Items.GRAVEL)
                 .define('S', ItemTags.SAPLINGS)
                 .define('B', Items.BONE)
                 .define('V', Items.VINE)
