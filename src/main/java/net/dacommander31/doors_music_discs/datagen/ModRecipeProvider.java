@@ -287,7 +287,7 @@ public class ModRecipeProvider extends RecipeProvider {
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC)
                 .define('R', ModItems.RESONATOR)
                 .define('G', Items.GRASS_BLOCK)
-                .define('P', Items.DIRT_PATH)
+                .define('P', Items.GRAVEL)
                 .define('S', ItemTags.SAPLINGS)
                 .define('B', Items.BONE)
                 .define('V', Items.VINE)
