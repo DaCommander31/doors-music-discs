@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     "doors_music_discs:elevator_jam_music_disc",
     "minecraft:red_dye",

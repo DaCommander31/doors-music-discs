@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "D": "#minecraft:stone_crafting_materials",
     "L": "minecraft:soul_lantern",

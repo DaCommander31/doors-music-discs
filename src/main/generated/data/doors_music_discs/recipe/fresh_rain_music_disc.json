@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     "doors_music_discs:elevator_jammed_music_disc",
     "minecraft:water_bucket",

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
   "ingredients": [
     "doors_music_discs:jeffs_jingle_music_disc",
     "minecraft:water_bucket",
