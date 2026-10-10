@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "R": {
+      "item": "doors_music_discs:resonator"
+    }
+  },
+  "pattern": [
+    "NLN",
+    "GRG",
+    "NDN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "doors_music_discs:r4ns0m_music_disc"
+  }
+}
