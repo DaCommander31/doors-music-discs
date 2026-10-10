@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "A": "minecraft:gravel",
     "B": "minecraft:bone",
     "G": "minecraft:grass_block",
+    "P": "minecraft:gravel",
     "R": "doors_music_discs:resonator",
     "S": "#minecraft:saplings",
     "V": "minecraft:vine"
@@ -12,7 +12,7 @@
   "pattern": [
     "VBV",
     "SRS",
-    "GAG"
+    "GPG"
   ],
   "result": {
     "count": 1,

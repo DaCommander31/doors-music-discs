@@ -292,13 +292,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 createShaped(RecipeCategory.MISC, ModItems.THE_GREAT_OUTDOORS_MUSIC_DISC)
                         .input('R', ModItems.RESONATOR)
                         .input('G', Items.GRASS_BLOCK)
-                        .input('A', Items.GRAVEL)
+                        .input('P', Items.GRAVEL)
                         .input('S', ItemTags.SAPLINGS)
                         .input('B', Items.BONE)
                         .input('V', Items.VINE)
                         .pattern("VBV")
                         .pattern("SRS")
-                        .pattern("GAG")
+                        .pattern("GPG")
                         .criterion(hasItem(ModItems.RESONATOR), conditionsFromItem(ModItems.RESONATOR))
                         .offerTo(exporter);
 
