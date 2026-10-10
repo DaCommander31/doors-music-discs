@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "minecraft:rotten_flesh",
+    "G": "minecraft:green_wool",
+    "N": "minecraft:gold_nugget",
+    "P": "#minecraft:planks",
+    "R": "doors_music_discs:resonator",
+    "W": "minecraft:red_wool"
+  },
+  "pattern": [
+    "NWN",
+    "GRG",
+    "PFP"
+  ],
+  "result": {
+    "id": "doors_music_discs:unwrapped_music_disc"
+  }
+}
